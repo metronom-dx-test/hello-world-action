@@ -1,0 +1,11 @@
+name: 'Robin Nepomuk Mai'
+description: 'prints out hello metro'
+author: 'Robin Nepomuk Mai'
+inputs:
+  who-to-greet:
+    description: 'Hello whatever you want to, default is Metro'
+    required: false
+    default: 'Metro'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
